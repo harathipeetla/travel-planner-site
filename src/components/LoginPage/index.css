@@ -1,0 +1,43 @@
+.register-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-name-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 23px;
+}
+
+.password-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 23px;
+    
+}
+
+.login-page-container input{
+    width: 120px;
+    height: 30px;
+    margin: 5px;
+}
+
+.login-button{
+    width: 80px;
+    height: 40px;
+    background-color: #0865d7;
+    color: #fff;
+    font-weight:500;
+    font-style: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1em;
+}
+
+.error-msg{
+    color: #e20f0f;
+}
